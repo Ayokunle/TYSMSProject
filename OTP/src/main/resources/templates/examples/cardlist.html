@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <link rel="stylesheet" href="./examples.css" />
+  </head>
+  <style>
+    .custom-card-container {
+      display: grid;
+      background: #572866;
+      grid-template-columns: auto;
+      margin: 0 auto;
+      padding: 10px;
+      row-gap: 20px;
+      color: white;
+    }
+    .custom-card {
+      border: 1px solid pink;
+      border-radius: 5%;
+      padding: 5px;
+    }
+    .two-columns {
+      display: grid;
+      grid-template-columns: auto 20%;
+      column-gap: 10px;
+    }
+  </style>
+  <body>
+    <main>
+      <h1 class="title">Card list</h1>
+
+      <!-- lists -->
+      <div class="custom-card-container">
+        <div class="custom-card two-columns">
+          <div>
+            <h2>First card</h2>
+            <p>Detail</p>
+          </div>
+        </div>
+        <div class="custom-card two-columns">
+          <div>
+            <h2>Second card</h2>
+            <p>Detail</p>
+          </div>
+          <div><p>Some more detail</p></div>
+        </div>
+        <div class="custom-card two-columns">
+          <div>
+            <h2>Third card</h2>
+            <p>Detail</p>
+          </div>
+          <div><p>Some more detail</p></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

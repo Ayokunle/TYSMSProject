@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-TYProjectApplication<OTP>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.workday.ty.otp.TYProjectApplication",
+      "projectName": "OTP",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

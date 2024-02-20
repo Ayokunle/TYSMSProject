@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+main {
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 20px;
+}
+
+.custom-card-container {
+  display: grid;
+  background: #572866;
+  grid-template-columns: auto;
+  margin: 0 auto;
+  padding: 10px;
+  row-gap: 20px;
+  color: white;
+  width: 100%
+}
+.custom-card {
+  border: 1px solid pink;
+  border-radius: 5%;
+  padding: 5px;
+}
+.two-columns {
+  display: grid;
+  grid-template-columns: auto 20%;
+  column-gap: 10px;
+}
